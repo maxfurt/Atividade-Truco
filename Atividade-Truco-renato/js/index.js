@@ -1,3 +1,11 @@
+window.onload=()=>{
+    "use strick"
+    if ("ServiceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js")
+    }
+}
+
+
 const PontoAElement = document.getElementById("PontoA");
 const PontoBElement = document.getElementById("PontoB");
 const TimeAName = document.getElementById("TimeA");
