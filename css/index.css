@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.Time {
+    margin: 10px 0;
+}
+
+.Tabela-Ponto {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Pontuação-Time {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
